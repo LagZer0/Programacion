@@ -44,7 +44,7 @@ begin
   write('Los digitos que no se repiten son: ');
   for i := 1 to Max_Digito do
     if (vectorEnteros[i] = 0) then
-      write(i);
+      write(i , ', ');
 end;
 
 begin
